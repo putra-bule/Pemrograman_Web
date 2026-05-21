@@ -20,6 +20,7 @@ Website IMC Service Center adalah platform layanan servis laptop, HP, dan PC yan
 
 
 ## Struktur Direktori
+```
 P8_UTS/  
 ├── IMC_Service_Center  
 │   ├── Assets/  
@@ -31,7 +32,7 @@ P8_UTS/
 │   ├── contact.html  
 │   └── style.css  
 └── Readme.md  
-
+```
 
 ## Akses Website
 Proyek ini di-deploy menggunakan GitHub Pages. Kamu bisa mengaksesnya melalui tautan berikut:  
