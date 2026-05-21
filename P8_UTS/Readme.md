@@ -36,7 +36,7 @@ P8_UTS/
 
 ## Akses Website
 Proyek ini di-deploy menggunakan GitHub Pages. Kamu bisa mengaksesnya melalui tautan berikut:  
-Link    :   https://putra-bule.github.io/Pemrograman_Web/P8_UTS/IMC_Service_Center/  
+Link    :   ```https://putra-bule.github.io/Pemrograman_Web/P8_UTS/IMC_Service_Center/```  
   
 [Klik Disini](https://putra-bule.github.io/Pemrograman_Web/P8_UTS/IMC_Service_Center/)  
 
