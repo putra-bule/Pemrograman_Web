@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#">About</a> | 
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img src="Assets/Profil.jpg" alt="Foto Profil"width="300">
+            <h2>Nama Mahasiswa</h2>
+            <P>Hi Saya Muhammad Ade Putra Seorang Gamer Profesional</P>
+        </section>
+
+        <section>
+            <h2>Skills & Expertise</h2>
+            <p>Berikut adalah beberapa keahlian yang saya tekuni:</p>
+            <ul>
+                <li><strong>Programming Languages:</strong> Java, C, C++, JavaScript (JS)</li>
+                <li><strong>Web Development:</strong> HTML, CSS, MySQL, JSON</li>
+                <li><strong>Creative & Multimedia:</strong> Menggambar Digital, Music Production (FL Studio 12)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects Gallery & Showcase</h2>
+            <div class="gallery-container">
+                <figure>
+                    <img src="Assets/Pixel_Art_1.png" alt="Hasil OpenGL 1" width="300">
+                    <img src="Assets/Pixel_Art_2.png" alt="Hasil OpenGL 2" width="300">
+                    <img src="Assets/Pixel_Art_3.png" alt="Hasil OpenGL 2" width="300">
+                    <figcaption>Computer Graphics (OpenGL Project)</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="Assets/IMC_1.png" alt="WordPress Site" width="500">
+                    <img src="Assets/IMC_2.png" alt="WordPress Site" width="500">
+                    <figcaption>Personal Website (WordPress)</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="Assets/Karya_1.jpg" alt="Digital Art" width="300">
+                    <img src="Assets/Karya_2.jpg" alt="Digital Art" width="300">
+                    <figcaption>Digital Artworks</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+              
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+              
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+              
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
